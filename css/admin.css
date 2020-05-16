@@ -1,0 +1,16 @@
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 15px;
+}
+.button{
+    display: inline-block;
+    background-color: #cccccc;
+    cursor: pointer;
+    padding: 5px 15px;
+    text-decoration:none;
+    color: black;
+}
+.message-closer{
+    cursor: pointer;
+}
