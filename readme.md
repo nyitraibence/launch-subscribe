@@ -4,7 +4,7 @@ A super lightweight PHP + SQLite application, that lets people subscribe for you
 
 ## Setup
 1. Open the ``/admin.php`` route in the browser.
-2. Type in ``admin`` and ``adminpass`` as credentials, and it automatically creates the database and neccessary tables. Then you're good to go. If you'd like, you can change or create login credentials in ``auth.php`` any time - pre or post setup.
+2. Type in ``admin`` and ``adminpass`` as credentials, and it automatically creates the database and neccessary tables. Then you're good to go. If you'd like, you can change or create login credentials in the ``auth.php`` file any time - pre or post setup.
 
 Client endpoints:
 - index.php
