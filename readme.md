@@ -1,5 +1,5 @@
 # Subscribe App 📧
-A super lightweight PHP application, that lets people subscribe for your site before it launches.
+A super lightweight PHP + SQLite application, that lets people subscribe for your site before it launches.
 
 
 ## Setup
@@ -14,5 +14,10 @@ Feel free to extend the application. It ships with basic functionality and bareb
 ## Tasks left
 - Privacy policy - for storing emails
 - Language session / language url
+
+## Sources
+[PHP + SQLite setup](https://www.makeareadme.com/)
+[PHP auth](https://www.sqlitetutorial.net/sqlite-php/)
+
 
 [Help to create Readme.md](https://www.makeareadme.com/)
