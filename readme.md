@@ -16,8 +16,8 @@ Feel free to extend the application. It ships with basic functionality and bareb
 - Language session / language url
 
 ## Sources
-[PHP + SQLite setup](https://www.makeareadme.com/)
-[PHP auth](https://www.sqlitetutorial.net/sqlite-php/)
+PHP + SQLite setup [https://www.makeareadme.com/](https://www.makeareadme.com/)
 
+PHP auth [https://www.sqlitetutorial.net/sqlite-php/](https://www.sqlitetutorial.net/sqlite-php/)
 
-[Help to create Readme.md](https://www.makeareadme.com/)
+Help to create a nice Readme.md [https://www.makeareadme.com/](https://www.makeareadme.com/)
