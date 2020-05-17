@@ -1,4 +1,4 @@
-# Subscribe App 📧
+# Subscribe App 📧📊
 A super lightweight PHP + SQLite application, that lets people subscribe for your site before it launches.
 
 
