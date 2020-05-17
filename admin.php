@@ -48,7 +48,6 @@ $connection=null;
         <div class="container">
             <h1>Launch page</h1>
             <h2>Permission as: <?php echo $user; ?></h2>
-            <p id="message-bar" onclick="removeElement()" class="message-closer" title="click to hide"></p>
             <hr>
             <?php if($subscriber_records!=null){ ?>
             <h4><u>Subscribers:</u><?php echo ' '.count($subscriber_records); ?></h4><br>
@@ -70,31 +69,4 @@ $connection=null;
             <?php } ?>
         </div>
     </body>
-    <script>
-
-        function removeElement(){
-            const message_bar = document.getElementById('message-bar');
-            message_bar.innerHTML = '';
-        }
-    
-
-        function exportSubscribers() {
-            const message_bar = document.getElementById("message-bar");
-
-            const method = "POST";
-            const url = 'ajax-export-subscribers.php';
-            const params = 'fileName=subscriber_export';
-
-            let req = new XMLHttpRequest();
-            req.open(method, url, true);
-            req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            req.onreadystatechange = function() {
-                if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-                    message_bar.innerHTML = this.responseText;
-                }
-            };
-            req.send(params);   
-        }
-
-    </script>
 </html>
